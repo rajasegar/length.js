@@ -1,10 +1,33 @@
 {
-  "name": "@rajasegar/length.js",
+  "_from": "length.js",
+  "_id": "length.js@1.1.1",
+  "_inBundle": false,
+  "_integrity": "sha512-ArT3epmXh+IqPp7VRs0dQjYFYFPSRLZidGhWsfs9SWAJKckm3i9SPdKeNr9rzrDrVclfX6nqm0n7pd00QdA0yw==",
+  "_location": "/length.js",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "length.js",
+    "name": "length.js",
+    "escapedName": "length.js",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/length.js/-/length.js-1.1.1.tgz",
+  "_shasum": "8828db7bf367270a2bed21157f47e6a331cf6ca2",
+  "_spec": "length.js",
+  "_where": "/Users/user/Documents/www/js/length-js",
   "author": {
-    "name": "Rajasegar Chandran"
+    "name": "appalaszynski"
   },
   "bugs": {
-    "url": "https://github.com/rajasegar/length.js/issues"
+    "url": "https://github.com/appalaszynski/length.js/issues"
   },
   "bundleDependencies": false,
   "deprecated": false,
@@ -24,7 +47,7 @@
     "rollup": "^0.63.5",
     "rollup-plugin-cleanup": "^3.0.0"
   },
-  "homepage": "https://github.com/rajasegar/length-js#readme",
+  "homepage": "https://github.com/appalaszynski/length.js#readme",
   "keywords": [
     "length",
     "conventer",
@@ -39,14 +62,15 @@
   ],
   "license": "MIT",
   "main": "length.js",
+  "name": "length.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rajasegar/length.js.git"
+    "url": "git+https://github.com/appalaszynski/length.js.git"
   },
   "scripts": {
     "build": "gulp build",
     "bump": "node scripts/bump",
     "test": "jest --coverage --config=jest.config.json"
   },
-  "version": "1.0.0"
+  "version": "1.1.1"
 }
